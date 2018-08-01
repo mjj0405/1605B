@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
             <span> <b class="two"><img src="./img/images/fdj_03.jpg" alt=""></b>  <input type="text" placeholder="寻找宝贝店铺"></span>
         </header>
         <section>
-            <!-- <div class="swiper-container">
+            <div class="swiper-container banner1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./img/1.jpg" alt="">
@@ -29,13 +30,49 @@
                         <img src="./img/3.jpg" alt="">
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="list">
+            </div>
+            <div class="list">
                 <dl>
                     <dt><img src="./img/images/6_06.jpg" alt=""></dt>
                     <dd>天猫</dd>
                 </dl>
-            </div> -->
+                <dl>
+                    <dt><img src="./img/images/6_25.jpg" alt=""></dt>
+                    <dd>聚划算</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_26.jpg" alt=""></dt>
+                    <dd>天猫国际</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_08.jpg" alt=""></dt>
+                    <dd>外卖</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_10.jpg" alt=""></dt>
+                    <dd>天猫超市</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_12.jpg" alt=""></dt>
+                    <dd>充值中心</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_14.jpg" alt=""></dt>
+                    <dd>飞猪旅行</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_22.jpg" alt=""></dt>
+                    <dd>领金币</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_23.jpg" alt=""></dt>
+                    <dd>拍卖</dd>
+                </dl>
+                <dl>
+                    <dt><img src="./img/images/6_24.jpg" alt=""></dt>
+                    <dd>分类</dd>
+                </dl>
+            </div>
             <div class="tt">
                 <b></b>
                 <div class="swiper-container">
@@ -46,12 +83,6 @@
                     </div>
                 </div>
             </div>
-            <div class="list">
-                <dl>
-                    <dt></dt>
-                    <dd></dd>
-                </dl>
-            </div>
             <div class="tt">
                 <b></b>
                 <div class="swiper-container">
@@ -60,6 +91,7 @@
                             <img src="" alt="">
                         </div>
                     </div>
+                    <div class="swiper-pagination dian"></div>
                 </div>
             </div>
             <div class="tw">
@@ -87,8 +119,16 @@
             </a>
         </footer>
     </div>
+    <script src="./js/swiper.min.js"></script>
     <script>
         document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px';
+        new Swiper('.banner1', {
+            autoplay: true,
+            loop: true,
+            pagination: {
+                el: 'dian'
+            }
+        });
     </script>
 </body>
 

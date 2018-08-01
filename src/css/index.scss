@@ -75,5 +75,36 @@ body {
         width: 100%;
         flex: 1;
         overflow: hidden;
+        .banner1 {
+            width: 100%;
+            img {
+                display: block;
+                width: 100%
+            }
+        }
+        .list {
+            width: 100%;
+            // height: 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            dl {
+                width: 20%;
+                padding: 0.25rem 0;
+                dt {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0 auto;
+                    img {
+                        width: 100%;
+                    }
+                }
+                dd {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 0.22rem;
+                    color: grey;
+                }
+            }
+        }
     }
 }
