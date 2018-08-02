@@ -121,3 +121,111 @@ body {
   font-size: 0.22rem;
   color: grey;
 }
+
+.wrap section .tt {
+  width: 100%;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 8px #eee;
+}
+
+.wrap section .tt .dz {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
+.wrap section .tt .dz img {
+  display: block;
+  width: 80%;
+  margin: 5px auto;
+}
+
+.wrap section .tt .banner2 {
+  flex: 1;
+  overflow: hidden;
+  background: white;
+}
+
+.wrap section .tt .banner2 .banner2s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap section .tt .banner2 .tit {
+  width: 72%;
+  font-size: 0.14rem;
+  text-overflow: ellipsis;
+}
+
+.wrap section .tt .banner2 .car {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.wrap section .tw {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrap section .tw .one {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap section .tw .one h3 {
+  color: red;
+  position: absolute;
+  top: 0.11rem;
+  left: 0;
+  font-size: 0.3rem;
+  padding-left: 0.15rem;
+}
+
+.wrap section .tw .one .small {
+  display: block;
+  margin-top: 0.7rem;
+  width: 60px;
+  height: 70px;
+}
+
+.wrap section .tw .one .big {
+  width: 90px;
+  height: 100px;
+  display: block;
+}
+
+.wrap footer {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrap footer a {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap footer a img {
+  margin: 0 auto;
+  display: block;
+  width: 40px;
+  height: 22px;
+}
+
+.wrap footer a span {
+  color: #666;
+  font-size: 0.3rem;
+  text-align: center;
+}

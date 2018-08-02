@@ -30,6 +30,7 @@
                         <img src="./img/3.jpg" alt="">
                     </div>
                 </div>
+                <div class="swiper-pagination dian"></div>
             </div>
             <div class="list">
                 <dl>
@@ -73,48 +74,87 @@
                     <dd>分类</dd>
                 </dl>
             </div>
+
             <div class="tt">
-                <b></b>
-                <div class="swiper-container">
+                <b class="dz"> 
+                    <img src="./img/images/6_34.jpg" alt="">
+                </b>
+                <div class="swiper-container banner2">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="" alt="">
+                        <div class="swiper-slide banner2s">
+                            <div class="tit">
+                                <span>围观</span>安全气囊弹出来一次，塞回去得花
+                                <span>围观</span>安全气囊弹出来一次，塞回去得花
+                            </div>
+
+                            <img src="./img/images/6_33.jpg" class="car">
+                        </div>
+                        <div class="swiper-slide banner2s">
+                            <div class="tit">
+                                <span>围观</span>111
+                                <span>围观</span>111
+                            </div>
+
+                            <img src="./img/images/6_14.jpg" class="car">
+                        </div>
+                        <div class="swiper-slide banner2s">
+                            <div class="tit">
+                                <span>围观</span>222
+                                <span>围观</span>222
+                            </div>
+
+                            <img src="./img/images/6_22.jpg" class="car">
                         </div>
                     </div>
+
                 </div>
             </div>
-            <div class="tt">
-                <b></b>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-pagination dian"></div>
+
+
+            <div class="tw">
+                <div class="one">
+                    <h3>淘抢购</h3>
+                    <img src="./img/images/6_43.jpg" class="small">
+                    <img src="./img/images/6_40.jpg" class="big">
+                </div>
+                <div class="one">
+                    <h3>淘抢购</h3>
+                    <img src="./img/images/6_45.jpg" class="small">
+                    <img src="./img/images/6_42.jpg" class="big">
                 </div>
             </div>
             <div class="tw">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-                <div class="four"></div>
+                <div class="one">
+                    <h3>淘抢购</h3>
+                    <img src="./img/images/6_53.jpg" class="small">
+                    <img src="./img/images/6_51.jpg" class="big">
+                </div>
+                <div class="one">
+                    <h3>淘抢购</h3>
+                    <img src="./img/images/6_54.jpg" class="small">
+                    <img src="./img/images/6_52.jpg" class="big">
+                </div>
             </div>
         </section>
         <footer>
             <a href="#">
+                <img src="./img/images/6_59.jpg" alt="">
                 <span>首页</span>
             </a>
             <a href="#">
+                <img src="./img/images/6_61.jpg" alt="">
                 <span>物流</span>
             </a>
             <a href="#">
+                <img src="./img/images/6_63.jpg" alt="">
                 <span>购物车</span>
             </a>
             <a href="#">
+                <img src="./img/images/6_65.jpg" alt="">
                 <span>我的淘宝</span>
             </a>
             <a href="#">
+                <img src="./img/images/6_67.jpg" alt="">
                 <span>更多</span>
             </a>
         </footer>
@@ -129,6 +169,10 @@
                 el: 'dian'
             }
         });
+        new Swiper('.banner2', {
+            autoplay: true
+                // direction: 'vertical'
+        })
     </script>
 </body>
 
